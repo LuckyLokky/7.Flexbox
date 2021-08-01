@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    padding: 30px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(241, 205, 179);
+    letter-spacing: 0.06em;
+    text-decoration: none;
+} 
+
+header p{
+    font: 400 13px Arial;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 35px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    font: 15px Arial;
+    color: white;
+}
+
+.active{
+    border-bottom: rgb(241, 205, 179) solid 3px;
+    padding-bottom: 4px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+.hero{
+    background-image: url(../images/start-screen-puppy.png), linear-gradient(to right, rgb(125, 96, 75), rgb(37, 16, 0));
+    background-repeat: no-repeat;
+    height: 908px;
+    padding-top: 180px;
+    background-position: 73% bottom;
+    
+   
+}
+
+.hero h1{
+    max-width: 500px;
+    font-family: georgia;
+    font-size: 44px;
+    font-weight: 400;
+    color: white;
+    }
+
+.hero p{
+    max-width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(205, 205, 205);
+    line-height: 160%;
+    margin-bottom: 41px;
+    }
+
+.hero button{
+    background-color: rgb(241, 205, 179);
+    border-radius: 100px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    line-height: 130%;
+    color: rgb(41, 41, 41);
+    padding: 15px 45px;
+    border: none;
+}    
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.about-pets{
+    display: inline-block;
+    margin: 80px 125px 100px 175px;
+    vertical-align: top;
+        
+}
+.cozy-house{
+    display: inline-block;
+    width: 430px;
+    vertical-align: top;
+    margin-top: 94px;
+}
+
+.cozy-house h2{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+
+}
+
+.cozy-house p{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(76, 76, 76);
+}
+
+span{
+    display: block;
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+.ourfriends {
+    text-align: center;    
+}
+
+.ourfriends h2{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    margin-bottom: 60px ;
+}
+
+.flex-ourfriends{
+    display: flex;
+    max-width: 990px;
+    margin: auto;
+
+    justify-content: space-between;
+}
+
+.flex-ourfriends div{
+    padding-bottom:30px;
+}
+
+.flex-ourfriends p{
+    color: rgb(84, 84, 84);
+    margin: 30px 0 ; 
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+
+.flex-ourfriends a{
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    color: rgb(41, 41, 41);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(41, 41, 41);
+    padding: 15px 45px;
+    border: solid 2px rgb(241, 205, 179);
+    border-radius: 52px;
+    margin-bottom: 60px;
+    }
+
+.gettoknow{
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: rgb(241, 205, 179);
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    border-radius: 52px;
+}
+
+.ourfriends .container{
+    position: relative;
+} 
+
+
+
+.arrow-left{
+    background-image: url(../images/Arrow-left.png);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;  
+    cursor: pointer; 
+    border-color: rgb(241, 205, 179) ;
+    
+}
+
+.arrow-right{
+    background-image: url(../images/Arrow-right.png);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;  
+    cursor: pointer; 
+    border-color: rgb(241, 205, 179);
+
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.help{
+    text-align: center;
+}
+
+.help h2 {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    margin-top: 182px;
+    margin-bottom: 60px;
+}
+
+.flex-help{
+    margin: auto;
+    padding-bottom: 43px;
+    display:flex;
+    justify-content:center ;
+    flex-wrap:wrap;
+}
+
+.flex-help figure{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 55px;
+}
+
+.flex-help p{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    margin-top: 30px;
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+
+.donation{
+    padding: 80px 0 100px 0;
+    }
+
+.donation-dog{
+    display: inline-block;
+    margin: 12px 30px 11px 142px;
+}
+
+.donation-info{
+    display: inline-block;
+    width: 380px;
+}
+
+.donation-info h2{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    padding-bottom:20px ;
+}
+
+.donation-info>p{
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    padding-bottom: 21px;
+}
+
+.credit-card{
+    background-color:rgb(241, 205, 179);
+    width: 350px;
+    padding: 10px 15px;
+    border-radius:9px; 
+    display: flex;
+    align-items: center;
+}
+.credit-card  p{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: rgb(84, 84, 84);
+    text-align: center;
+    padding-left: 15px;
+}
+
+.legal{
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+    color: rgb(178, 178, 178);
+    margin-top: 19px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+footer{
+    background: linear-gradient(90.26deg, #7D602B 0.23%, #251000 99.8%);
+    padding-top: 40px;
+}
+
+footer h2{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-bottom: 33px;
+}
+
+footer .flex-wrapper>div{
+    width: 300px;
+}
+
+footer .flex-wrapper{
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+}
+footer p{
+    min-height: 46px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    color: #f1cdb3;
+}
+
+footer a{
+    color: #f1cdb3;
+    text-decoration: none;
+}
+
+footer .email{
+    background: url(../images/icon-email.svg) no-repeat left center;
+}
+
+footer .tel{ 
+    background: url(../images/icon-phone.svg) no-repeat left center;
+}
+
+footer .local{ 
+    background: url(../images/icon-marker.svg) no-repeat left center;
+    padding-left: 42px;
+}
